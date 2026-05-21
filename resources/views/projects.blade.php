@@ -1,0 +1,162 @@
+@extends('layouts.app')
+@section('content')
+<section id="projects" class="section-padding">
+    <div class="container">
+
+        <h2 class="section-title">Projects</h2>
+
+        <div class="row mt-5 g-4">
+
+            <!--Invoices Management System-->
+
+            <div class="col-lg-4">
+                <div class="project-card">
+
+                    <div class="project-image-wrapper">
+                        <img
+                        src="{{ asset('images/Invoices.png') }}"
+                        class="img-fluid project-image"
+                        alt="Invoices-Management-System"
+                    >
+
+                    </div>
+
+                    <div class="p-4">
+                        <h4>Invoices Management System</h4>
+
+                        <p>
+                            • A website for managing invoices where admins and users can track the invoices statistics through the home page. <br/>
+                            • Users can select the website language (English or Arabic) from a dropdown menu.<br/>
+                            • Admin and user roles and their permissions are managed by the super admin based on database roles-permissions where users can have multiple roles and each role has many permissions which are secured using middlewares to avoid unauthorized actions. Roles and authorities can be added edited or deleted only by the Admin.<br/>
+                            • Admins can add ,edit and delete sections and products and view invoices and clients reports where they can search for invoices using invoice type ,number or section and product in addition to start and end date to limit the search to a specific time period.<br/>
+                            • Admins and Users can create, edit ,delete and archive invoices and add , delete or download invoices attachments.<br/>
+                            • Admins and Users can also copy invoices and change their payment status to categorize invoices to paid ,partially paid and unpaid invoices.<br/>
+                            • Admins can receive notifications for adding invoices by any user made using database notifications.<br/>
+                        </p>
+
+                        <a
+                            href="https://github.com/sara55m/Invoices-Management-System"
+                            target="_blank"
+                            class="project-link"
+                        >
+                            <i class="bi bi-github"></i>
+                            View Source Code
+                        </a>
+
+                        <div class="d-flex gap-2 flex-wrap">
+                            <span class="badge bg-info">Laravel</span>
+                            <span class="badge bg-info">PHP</span>
+                            <span class="badge bg-info">MySQL</span>
+                            <span class="badge bg-info">HTML5</span>
+                            <span class="badge bg-info">CSS3</span>
+                            <span class="badge bg-info">Bootstrap</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+             <!--Jobee-->
+             <div class="col-lg-4">
+                <div class="project-card">
+
+                    <div class="project-image-wrapper">
+                        <img
+                        src="{{ asset('images/Jobee.png') }}"
+                        class="img-fluid project-image"
+                        alt="Jobee"
+                    >
+                    </div>
+
+                    <div class="p-4">
+                        <h4>Jobee Platform</h4>
+
+                        <p>
+                            • A job portal platform for job seekers in computer science related fields where users can create accounts ,view their personal profile ,edit profile details ,upload profile photos and resumes.<br/>
+                            • Job seekers can explore diverse job opportunities or search for them using keywords, job title, job type or location and apply to jobs or save them for later. <br/>
+                            •  Admins can access a dashboard where they can view users and jobs and manage them.<br/>
+                        </p>
+
+                        <div class="mt-4 mb-4">
+
+                            <a
+                                href="https://github.com/sara55m/Jobee"
+                                target="_blank"
+                                class="project-link"
+                            >
+                                <i class="bi bi-github"></i>
+                                View Source Code
+                            </a>
+
+                        </div>
+
+                        <div class="d-flex gap-2 flex-wrap">
+                            <span class="badge bg-info">Laravel</span>
+                            <span class="badge bg-info">PHP</span>
+                            <span class="badge bg-info">MySQL</span>
+                            <span class="badge bg-info">HTML5</span>
+                            <span class="badge bg-info">CSS3</span>
+                            <span class="badge bg-info">Javacsript</span>
+                            <span class="badge bg-info">Bootstrap</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Blog-->
+
+            <div class="col-lg-4">
+                <div class="project-card">
+
+                    <div class="project-image-wrapper">
+                        <img
+                        src="{{ asset('images/Blog.png') }}"
+                        class="img-fluid project-image"
+                        alt="Blog"
+                    >
+                    </div>
+
+                    <div class="p-4">
+                        <h4>Blog</h4>
+
+                        <p>
+                            • A dynamic blog platform where users can create accounts ,view their personal profile ,edit and delete accounts , explore diverse posts, and engage through comments.<br/>
+                            <br/>
+                            • Users can search for posts based on categories , authors and tags.<br/>
+                            <br/>
+                            • Users can follow authors and subscribe for updates and receive mail notifications.<br/>
+                            <br/>
+                            • The Admin can access a dashboard where they can add ,edit or delete posts and categories.<br/>
+                            <br/>
+                        </p>
+
+                        <a
+                            href="https://github.com/sara55m/Blog/tree/master"
+                            target="_blank"
+                            class="project-link"
+                        >
+                            <i class="bi bi-github"></i>
+                            View Source Code
+                        </a>
+
+                        <div class="d-flex gap-2 flex-wrap">
+                            <span class="badge bg-info">Laravel</span>
+                            <span class="badge bg-info">PHP</span>
+                            <span class="badge bg-info">MySQL</span>
+                            <span class="badge bg-info">HTML5</span>
+                            <span class="badge bg-info">CSS3</span>
+                            <span class="badge bg-info">Javascript</span>
+                            <span class="badge bg-info">Bootstrap</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+@endsection
