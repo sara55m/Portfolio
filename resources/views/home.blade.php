@@ -22,7 +22,7 @@
                 </p>
 
                 <div class="mt-4 d-flex gap-3">
-                    <a href="https://drive.google.com/file/d/1aSnfEe71-XnYMktRmfhz_icOA_kbCpRR/view?usp=sharing" class="btn btn-info px-4 py-2">
+                    <a href="https://drive.google.com/file/d/1PFKCwn_w64jGf2Bjnp8CQzGvaN2rv_r6/view?usp=sharing" class="btn btn-info px-4 py-2">
                         View My CV
                     </a>
 
