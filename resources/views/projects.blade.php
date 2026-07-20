@@ -6,6 +6,57 @@
         <h2 class="section-title">Projects</h2>
 
         <div class="row mt-5 g-4">
+            <!--Booking Management System-->
+
+            <div class="col-lg-4">
+                <div class="project-card">
+                   
+                    <div class="project-image-wrapper">
+                        <img
+                        src="{{ asset('images/Booking.png') }}"
+                        class="img-fluid project-image"
+                        alt="Booking-Management-System"
+                    >
+
+                    </div>
+
+                    <div class="p-4">
+                        <h4>Booking Management System</h4>
+
+                        <p>
+                            • Developed a scalable booking platform with Laravel 12, featuring a RESTful API for users and a Filament v5 admin dashboard for managing the entire system. <br/>
+                            • Designed a robust booking and payment system featuring room availability validation, partial and full payments, Stripe Checkout, booking expiration, refunds, and invoice generation, leveraging database transactions, pessimistic locking, and idempotent payment processing to ensure consistency and eliminate race conditions under concurrent requests.<br/>
+                            • Built modules for properties, rooms, cities, amenities, offers, reviews, favorites, payment methods, and reward points, with advanced filtering, searching, and pagination. <br/>
+                            • Developed asynchronous features using Queues, Events, Listeners, Notifications, and Scheduled Jobs for booking confirmations, payment reminders, offer campaigns, arrival reminders, review requests, and booking expiration. <br/>
+                            • Optimized performance and reliability using Redis caching, database transactions, eager loading, model observers, and a service-layer architecture following Laravel best practices. <br/>
+                            • Applied Laravel best practices including Service Layer architecture, Policies, Form Requests, API Resources, Observers , Events & Listeners, Notifications, Queues, Scheduler, Localization, Spatie Permissions, and clean, maintainable code following SOLID principles. <br/>
+                            • Implemented secure authentication with Laravel Sanctum, including email verification and OTP-based verification, multilingual support (English & Arabic), role-based access control using Spatie Permissions, and comprehensive admin analytics through Filament widgets and dashboards. <br/>
+                        </p>
+
+                        <a
+                            href="https://github.com/sara55m/Booking-App"
+                            target="_blank"
+                            class="project-link"
+                        >
+                            <i class="bi bi-github"></i>
+                            View Source Code
+                        </a>
+
+                        <div class="d-flex gap-2 flex-wrap">
+                            <span class="badge bg-info">Laravel 12</span>
+                            <span class="badge bg-info">PHP 8.2</span>
+                            <span class="badge bg-info">MySQL</span>
+                            <span class="badge bg-info">REST API</span>
+                            <span class="badge bg-info">Filament v5</span>
+                            <span class="badge bg-info">Redis</span>
+                            <span class="badge bg-info">Stripe</span>
+                            <span class="badge bg-info">Sanctum</span>
+                            <span class="badge bg-info">Bootstrap</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
             <!--Invoices Management System-->
 

@@ -49,6 +49,9 @@
                         <li>Service Layer Architecture</li>
                         <li>Eloquent Relationships</li>
                         <li>Query Optimization</li>
+                        <li>Laravel Sanctum</li>
+                        <li>Stripe API</li>
+                        <li>Redis</li>
 
                     </ul>
 
@@ -68,16 +71,20 @@
                     <h3>Database</h3>
 
                     <ul class="skill-list">
-
                         <li>MySQL</li>
                         <li>Eloquent ORM</li>
                         <li>Database Design</li>
+                        <li>Relationship Modeling</li>
                         <li>Database Migrations</li>
                         <li>Foreign Keys & Constraints</li>
-                        <li>Indexes & Optimization</li>
-                        <li>SQL Queries</li>
-                        <li>Data Seeding</li>
-
+                        <li>Database Transactions</li>
+                        <li>Pessimistic Locking</li>
+                        <li>Concurrency Control</li>
+                        <li>Indexes & Query Optimization</li>
+                        <li>Eager Loading</li>
+                        <li>Data Integrity</li>
+                        <li>Complex SQL Queries</li>
+                        <li>Data Seeding & Factories</li>
                     </ul>
 
                 </div>
