@@ -1,84 +1,132 @@
 # 💼 Portfolio
 
-A personal portfolio web application built with **Laravel** and **Blade templating**, showcasing my background, skills, projects, and professional experience in a clean and structured way.
+A responsive personal portfolio website built with **Laravel** and **Blade**, showcasing my background, technical skills, projects, training, and professional experience as a **Junior Backend Laravel Developer**.
+
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Portfolio-0A66C2?style=for-the-badge)](https://portfolio-xq7.pages.dev/)
+
+## 🌐 Live Demo
+
+👉 **https://portfolio-xq7.pages.dev/**
 
 ---
 
-## 🌐 Pages
+## ✨ Features
+
+- Responsive and modern user interface
+- Multi-page portfolio built with Laravel Blade
+- Professional project showcase
+- Technical skills overview
+- Training and work experience sections
+- Contact page
+- Static site export using Spatie Laravel Export
+- Hosted on Cloudflare Pages
+
+---
+
+## 📄 Pages
 
 | Page | Description |
 |------|-------------|
 | **Home** | Landing page with a brief introduction |
-| **About** | Personal background and summary |
-| **Skills** | Technical and soft skills overview |
-| **Projects** | Showcase of development projects with details |
-| **Trainings** | Relevant training programs and courses completed |
-| **Experience** | Professional work experience timeline |
-| **Contact** | Contact information and form to get in touch |
+| **About** | Personal background and career summary |
+| **Skills** | Technical and soft skills |
+| **Projects** | Portfolio projects with descriptions |
+| **Trainings** | Training programs and certifications |
+| **Experience** | Professional experience timeline |
+| **Contact** | Contact information |
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
-- **[Laravel](https://laravel.com/)** — PHP web application framework
-- **Blade** — Laravel's templating engine
-- **CSS3** — Custom styling and responsive design
-- **JavaScript** — Interactive UI behavior
+- **Laravel** — PHP web application framework
+- **Blade** — Laravel templating engine
+- **Bootstrap 5** — Responsive UI components
+- **CSS3** — Custom styling
+- **JavaScript** — Interactive functionality
+- **Spatie Laravel Export** — Static site generation
+- **Cloudflare Pages** — Static website hosting
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to run the project locally.
-
 ### Prerequisites
 
-- PHP >= 8.0
+- PHP 8.0+
 - Composer
 - Laravel CLI
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/sara55m/portfolio.git
-   cd portfolio
-   ```
+1. Clone the repository
 
-2. **Install dependencies**
-   ```bash
-   composer install
-   ```
+```bash
+git clone https://github.com/sara55m/Portfolio.git
+cd Portfolio
+```
 
-3. **Set up environment variables**
-   ```bash
-   cp .env.example .env
-   ```
+2. Install dependencies
 
-4. **Generate application key**
-   ```bash
-   php artisan key:generate
-   ```
+```bash
+composer install
+```
 
-5. **Start the development server**
-   ```bash
-   php artisan serve
-   ```
+3. Create the environment file
 
-6. Open your browser and visit `http://localhost:8000`
+```bash
+cp .env.example .env
+```
+
+4. Generate the application key
+
+```bash
+php artisan key:generate
+```
+
+5. Start the development server
+
+```bash
+php artisan serve
+```
+
+6. Visit
+
+```
+http://localhost:8000
+```
+
+---
+
+## 📦 Static Export
+
+This portfolio is exported as a static website using **Spatie Laravel Export** and deployed on **Cloudflare Pages**.
+
+Generate the static version with:
+
+```bash
+php artisan export
+```
+
+The generated files will be available in the `dist/` directory.
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 portfolio/
 ├── app/
-│   └── Http/Controllers/     # Page controllers
+│   └── Http/
+│       └── Controllers/
+├── public/
+│   ├── css/
+│   ├── images/
+│   └── js/
 ├── resources/
-│   └── views/                # Blade templates for each page
-        ├── layouts/
-            └── app.blade.php
+│   └── views/
+│       ├── layouts/
+│       │   └── app.blade.php
 │       ├── home.blade.php
 │       ├── about.blade.php
 │       ├── skills.blade.php
@@ -87,9 +135,9 @@ portfolio/
 │       ├── experience.blade.php
 │       └── contact.blade.php
 ├── routes/
-│   └── web.php               # Application routes
-└── public/
-    └── css/ js/              # Frontend assets
+│   └── web.php
+├── dist/
+└── README.md
 ```
 
 ---
@@ -97,6 +145,12 @@ portfolio/
 ## 👩‍💻 Author
 
 **Sara Mohamed Abdullah**
-- GitHub: [@sara55m](https://github.com/sara55m)
-- LinkedIn: [sara-mohamed6295](https://linkedin.com/in/sara-mohamed6295)
+
+- 🌐 Portfolio: https://portfolio-xq7.pages.dev/
+- GitHub: https://github.com/sara55m
+- LinkedIn: https://linkedin.com/in/sara-mohamed6295
 - Email: sara.mohamed7611250@gmail.com
+
+---
+
+⭐ If you found this project interesting, feel free to give it a star!
