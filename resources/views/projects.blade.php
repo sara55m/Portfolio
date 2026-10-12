@@ -10,7 +10,7 @@
 
             <div class="col-lg-4">
                 <div class="project-card">
-                   
+
                     <div class="project-image-wrapper">
                         <img
                         src="{{ asset('images/Booking.png') }}"
@@ -24,13 +24,17 @@
                         <h4>Booking Management System</h4>
 
                         <p>
-                            • Developed a scalable booking platform with Laravel 12, featuring a RESTful API for users and a Filament v5 admin dashboard for managing the entire system. <br/>
-                            • Designed a robust booking and payment system featuring room availability validation, partial and full payments, Stripe Checkout, booking expiration, refunds, and invoice generation, leveraging database transactions, pessimistic locking, and idempotent payment processing to ensure consistency and eliminate race conditions under concurrent requests.<br/>
-                            • Built modules for properties, rooms, cities, amenities, offers, reviews, favorites, payment methods, and reward points, with advanced filtering, searching, and pagination. <br/>
-                            • Developed asynchronous features using Queues, Events, Listeners, Notifications, and Scheduled Jobs for booking confirmations, payment reminders, offer campaigns, arrival reminders, review requests, and booking expiration. <br/>
-                            • Optimized performance and reliability using Redis caching, database transactions, eager loading, model observers, and a service-layer architecture following Laravel best practices. <br/>
-                            • Applied Laravel best practices including Service Layer architecture, Policies, Form Requests, API Resources, Observers , Events & Listeners, Notifications, Queues, Scheduler, Localization, Spatie Permissions, and clean, maintainable code following SOLID principles. <br/>
-                            • Implemented secure authentication with Laravel Sanctum, including email verification and OTP-based verification, multilingual support (English & Arabic), role-based access control using Spatie Permissions, and comprehensive admin analytics through Filament widgets and dashboards. <br/>
+                            • Developed a scalable booking platform with Laravel 12, featuring a RESTful API for users and a Filament v5 admin dashboard for managing the entire system, with role-based access control (Admin, Super Admin, User) enforced through Laravel Policies. <br/>
+                            • Designed a robust booking and payment system using Stripe Checkout, supporting full and partial payments with minimum payment amount rules, room availability validation, booking expiration, due dates, and invoice generation. Leveraged database transactions, pessimistic locking, and idempotent payment processing to ensure consistency and eliminate race conditions under concurrent requests. <br/>
+                            • Implemented refunds driven by each property's cancellation policy rules, including reward points cancellation, plus a reward points system for users. <br/>
+                            • Integrated AI features using the Groq model: an AI property search, an AI assistant, an AI travel planner that builds a complete trip program from user preferences (country, city, budget, stay duration, interests, travel categories) with follow-up conversation support, and an AI review summary that generates a concise summary of all approved reviews for a property. <br/>
+                            • Built an offers module supporting both general and property-specific offers, along with modules for properties, rooms, cities, amenities, reviews, favorites, and payment transactions, with advanced filtering, searching, and pagination. <br/>
+                            • Implemented multi-currency support: users view prices in their preferred currency and enter payment amounts that are converted back to the app's default currency for Stripe processing. Users can also save payment methods and trip plans. <br/>
+                            • Developed asynchronous and real-time features using Queues, Events, Listeners, Scheduled Jobs, and Pusher broadcasting. Built a notification system with Mailtrap email notifications (booking confirmations, cancellations with attached invoices, payment, offer, review, arrival, and due date reminders) and admin database notifications for bookings, payments, and reviews. <br/>
+                            • Optimized performance and reliability using Redis caching, eager loading, model observers, and a service-layer architecture following Laravel best practices and SOLID principles (Form Requests, API Resources, Policies, Localization, clean maintainable code). <br/>
+                            • Implemented secure authentication with Laravel Sanctum, including email verification and OTP-based verification, multilingual support (English & Arabic), and comprehensive admin analytics through Filament widgets and dashboards. <br/>
+                            • Deployed the application to production on Wasmer with an Aiven managed database. Live demo: <a href="https://booking-app-sara55m.wasmer.app/admin" target="_blank" rel="noopener">booking-app-sara55m.wasmer.app/admin</a> <br/>
+                            - Tested and documented all API endpoints with Postman, including environment variables and authenticated requests. The json file is included in the github repo at docs\Booking.postman_collection.json"<br/>
                         </p>
 
                         <a
@@ -48,9 +52,15 @@
                             <span class="badge bg-info">MySQL</span>
                             <span class="badge bg-info">REST API</span>
                             <span class="badge bg-info">Filament v5</span>
-                            <span class="badge bg-info">Redis</span>
-                            <span class="badge bg-info">Stripe</span>
                             <span class="badge bg-info">Sanctum</span>
+                            <span class="badge bg-info">Stripe</span>
+                            <span class="badge bg-info">Groq AI</span>
+                            <span class="badge bg-info">Redis</span>
+                            <span class="badge bg-info">Queues & Scheduler</span>
+                            <span class="badge bg-info">Pusher</span>
+                            <span class="badge bg-info">Mailtrap</span>
+                            <span class="badge bg-info">Aiven</span>
+                            <span class="badge bg-info">Wasmer</span>
                             <span class="badge bg-info">Bootstrap</span>
                         </div>
                     </div>
