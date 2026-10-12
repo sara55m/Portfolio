@@ -34,7 +34,7 @@
                             • Optimized performance and reliability using Redis caching, eager loading, model observers, and a service-layer architecture following Laravel best practices and SOLID principles (Form Requests, API Resources, Policies, Localization, clean maintainable code). <br/>
                             • Implemented secure authentication with Laravel Sanctum, including email verification and OTP-based verification, multilingual support (English & Arabic), and comprehensive admin analytics through Filament widgets and dashboards. <br/>
                             • Deployed the application to production on Wasmer with an Aiven managed database. Live demo: <a href="https://booking-app-sara55m.wasmer.app/admin" target="_blank" rel="noopener">booking-app-sara55m.wasmer.app/admin</a> <br/>
-                            - Tested and documented all API endpoints with Postman, including environment variables and authenticated requests. The json file is included in the github repo at docs\Booking.postman_collection.json"<br/>
+                            • Tested and documented all API endpoints with Postman, using collection variables and authenticated requests. The collection is included in the GitHub repository: <a href="https://github.com/sara55m/Booking-App/blob/main/docs/Booking.postman_collection.json" target="_blank" rel="noopener">docs/Booking.postman_collection.json</a><br/>
                         </p>
 
                         <a
